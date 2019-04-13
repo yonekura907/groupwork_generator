@@ -134,9 +134,9 @@ function init() {
     stage.canvas.height = h;
 
     teamPos = {
-        a:[stage.canvas.width/2, stage.canvas.height/2 - 240],
-        b:[stage.canvas.width/2 - 460, stage.canvas.height/2 + 120],
-        c:[stage.canvas.width/2 + 460, stage.canvas.height/2 + 120],
+        a:[stage.canvas.width/2, stage.canvas.height/2 - 200],
+        b:[stage.canvas.width/2 - 460, stage.canvas.height/2 + 140],
+        c:[stage.canvas.width/2 + 460, stage.canvas.height/2 + 140],
     };
 
     var t_a = new createjs.Text("A", "160px sans-serif", "#222222");
